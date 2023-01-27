@@ -20,6 +20,12 @@ Returns `#t` if OBJECT is a sequence, and `#f` otherwise.
 (for-each->sequence FOR-EACH)
 ```
 
+```scheme
+(fold->sequence FOLD)
+```
+
+...
+
 ## Destructors
 
 ```scheme
@@ -30,14 +36,24 @@ Returns `#t` if OBJECT is a sequence, and `#f` otherwise.
 (sequence-fold PROC NIL SEQUENCE)
 ```
 
+...
+
 ## Converters
 
 ```scheme
 (sequence->list SEQUENCE)
 ```
 
+...
+
 ## Combiners
+
+```scheme
+(sequence-map PROC SEQUENCE)
+```
 
 ```scheme
 (sequence-merge SEQUENCE ...)
 ```
+
+...
