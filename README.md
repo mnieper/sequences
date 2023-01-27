@@ -1,6 +1,6 @@
 # Sequences
 
-A /sequence/ is an opaque value representing a finite sequence.  Each element of the sequence is represented by multiple values.
+A *sequence* is an opaque value representing a finite sequence.  Each element of the sequence is represented by multiple values.
 
 ## Predicates
 
